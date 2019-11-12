@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <script src="https://kit.fontawesome.com/67917c5b6d.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="css/styles.min.css">
+  <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico">
+  <title>Generocity</title>
+</head>
+<body>
+  <nav class="navbar bg-dark">
+    <h1>
+      <i class="fas fa-heartbeat"></i> 
+      <a href="dashboard.html">Generocity</a>
+    </h1>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+      <li><a href="profiles.html">Charities</a></li>
+      <li><a href="register.html">Register</a></li>
+      <li><a href="login.html">Login</a></li>
+    </ul>
+
+  </nav>
+  <section class="container">
+    <a href="profiles.html" class="btn ">Back to profiles</a>
+
+    <div class="profile-grid my-1 p-1">
+      <!-- TOP -->
+      <div class="profile-top bg-primary p-2">
+          <img class="style-img my-1" src="img/black-and-white-black-and-white-giving-2346558.jpg" alt="">
+
+          <h1 class="large">CharitySA</h1>
+          <p class="">We are a small local based charity in the Cape Town CBD helping the homeless in the area. We are providing meals and clothing to those in need. We provide skills training for those who need to upgrade their skillset.</p>
+          <p>Location</p>
+          <div class="icons my-1">
+            <a href="#">
+              <i class="fas fa-globe fa-2x"></i>
+            </a>
+            <a href="#"><i class="fab fa-twitter fa-2x"></i></a>
+            <a href="#"><i class="fab fa-facebook fa-2x"></i></a>
+            <a href="#"><i class="fab fa-instagram fa-2x"></i></a>
+          </div>
+          <div> 
+
+              <button class="btn donate" data-modal-target="#modal">Donate </button>
+              <div class="modal" id="modal">
+                <div class="modal-header">
+                  <div class="title">Example modal</div>
+                  <button data-close-button class="close-button">&times;</button>
+                </div>
+                <div class="modal-body">
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate, rem non explicabo numquam, rerum inventore sed neque repellendus expedita, tempora at velit natus laborum provident. Inventore explicabo, temporibus in dolorem corporis aliquam aliquid provident eaque, esse deleniti itaque ex reprehenderit!
+                </div>
+            
+              </div>
+              <div id="overlay"></div>
+
+          </div>
+
+
+      </div>
+      <!-- About -->
+      <div class="profile-about bg-light p-2">
+        <h2 class="text-primary">About CharitySA</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In, deleniti. Beatae ipsum doloribus ipsa eligendi nisi ea illo ab in!</p>
+        <div class="line"></div>
+        <h2 class="text-primary">
+          What we provide
+        </h2>
+        <div class="skills">
+        <div class="p-1">
+          <i class="fas fa-check"></i>Clothing
+        </div>
+        <div class="p-1">
+          <i class="fas fa-check"></i>Warm Meals
+        </div>
+        <div class="p-1">
+          <i class="fas fa-check"></i>Skills Training
+        </div>
+        <div class="p-1">
+          <i class="fas fa-check"></i>place of Safety
+        </div>
+      </div>
+      </div>
+
+
+
+     
+      <!-- Experience -->
+      <div class="profile-exp bg-white p-2">
+        <h2 class="text-primary">Experience</h2>
+        <div>
+          <h3>Heading</h3>
+          <p>Oct 2011 - Current</p>
+          <p><strong>Position: </strong></p>
+          <p><strong>Description: </strong>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt nisi ad doloribus soluta eveniet labore.</p>
+
+        </div>
+        <div>
+          <h3>Warm Meals</h3>
+          <p>Oct 2011 - Current</p>
+          <p><strong>Position: </strong>Senior</p>
+          <p><strong>Description: </strong>Donating over 1500 warm meals every day. adipisicing elit. Deserunt nisi ad doloribus soluta eveniet labore.</p>
+
+        </div>
+      </div>
+      <!-- Education -->
+      <div class="profile-skills bg-white p-2">
+        <h2 class="text-primary">Skills Training</h2>
+        <div>
+          <h3>Computer Literacy</h3>
+          <p>Oct 2011 - Current</p>
+          <p><strong>Level: </strong>NQF 1 - 4</p>
+          <p><strong>Description: </strong>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt nisi ad doloribus soluta eveniet labore.</p>
+
+        </div>
+        
+      </div>
+
+
+    </div>
+  </section>
+  
+  <script src="modal.js"></script>
+</body>
+</html>
